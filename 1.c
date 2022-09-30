@@ -1,18 +1,24 @@
 #include<stdio.h>
 main()
 {
-	int x,y,velue1,velue2,velue3,ans;
-	
-	printf("enter the X velue :=");
-	scanf("%d",&x);
-	printf("enter the Y velue :=");
-	scanf("%d",&y);
-	
-	velue1 = (x*x);
-	velue2 = (y*y);
-	velue3 = 2*(x*y);
-	
-	ans = velue1+velue2+velue3;
-	
-	printf("ans is :=%d",ans);	 
+    int a,b,c,d,e,f,g;
+    printf("enter the A velue :=");
+    scanf("%d",&a);
+    printf("enter the B velue :=");
+    scanf("%d",&b);
+
+    c=a+b;
+    printf("addition is := %d\n\n",c);
+
+    d=a-b;
+    printf("minus is := %d\n\n",d);
+
+    e=a*b;
+    printf("multiplay is := %d\n\n",e);
+
+    f=a/b;
+    printf("divesion is := %d\n\n",f);
+
+    g=a%b;
+    printf("modual is := %d\n\n",g);
 }
